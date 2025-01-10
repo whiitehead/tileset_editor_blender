@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "tileset_editor",
+			"path": "tileset_editor"
+		},
+		{
+			"path": "../blender/scripts/templates_py"
+		}
+	],
+	"settings": {
+		"blender.additionalArguments": [
+			"--factory-startup", // any arguments you want
+			// "--open-last", // Open the most recently opened blend file, or:
+			"./blender_assets/tileset_editor_test.blend" // prefered to be last argument, watch out for trailing spaces (which are invisible in VS code UI)
+		],
+	}
+}
